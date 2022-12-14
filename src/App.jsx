@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./components/Home";
-//import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -15,9 +15,10 @@ function App() {
 		<Router>
 			<ApolloProvider client={client}>
 
-				{/* <Navbar /> */}
+				<Navbar />
 				<Routes>
 					<Route path="/home" element={<Home />} />
+				
 				</Routes>
 				
 
