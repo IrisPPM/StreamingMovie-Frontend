@@ -1,8 +1,9 @@
 import "./App.css";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import Login from "./components/Login";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Form, Route, Routes } from "react-router-dom";
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
 
 				<Navbar />
 				<Routes>
-					<Route path="/" element={<Home />} />
+					<Route path="/home" element={<Home />} />
+					<Route  index element={<Login />} />
 				
 				</Routes>
 				
