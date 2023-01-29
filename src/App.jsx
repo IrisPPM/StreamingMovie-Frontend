@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Login from "./components/Login";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import { BrowserRouter as Router, Form, Route, Routes } from "react-router-dom";
+import Slider from "./components/Slider";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 				<Routes>
 					<Route path="/home" element={<Home />} />
 					<Route  index element={<Login />} />
+					
 				
 				</Routes>
 				
