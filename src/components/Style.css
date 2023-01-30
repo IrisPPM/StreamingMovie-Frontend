@@ -7,3 +7,9 @@
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2); 
   }
+
+  .login{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
