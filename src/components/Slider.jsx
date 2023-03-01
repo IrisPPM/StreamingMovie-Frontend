@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
+//import { Carousel } from 'flowbite'; 
+
+
+
+
+
 
 
 const Slider = () => {
@@ -38,7 +44,7 @@ const Slider = () => {
 
      return (    
       
-        <div className='max-w-[1400px] h-[480px] w-full m-auto relative group'>
+        <div className='slider max-w-[1400px] h-[480px] w-full m-auto relative group'>
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
           className='w-full h-full bg-center bg-cover duration-500'

@@ -13,3 +13,8 @@
     justify-content: center;
     margin-top: 20px;
   }
+
+  .slider{
+    background-position: fixed;
+    transition-duration: 0ms;
+  }

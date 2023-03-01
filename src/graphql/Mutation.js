@@ -8,6 +8,7 @@ mutation createMovie($title: String!, $description: String!, $image: String!, $d
         description
         image
         date
+        typeMovie
     }
   
 }
@@ -31,6 +32,7 @@ mutation updateMovie($title: String!, $description: String!, $image: String!, $d
         description
         image
         date
+        typeMovie
     }
 }
 `

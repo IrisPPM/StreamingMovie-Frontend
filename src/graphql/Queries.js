@@ -8,6 +8,7 @@ query getMovies{
         description
         image
         date
+        typeMovie
     }
 }
 `
